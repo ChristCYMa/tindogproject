@@ -1,0 +1,155 @@
+#title {
+  background-color: #FF4C68;
+  color: white;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+h3{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+p{
+  color: #8F8F8F;
+}
+
+.container-fluid{
+  padding: 3% 15% 10%;
+}
+
+/* navbar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  margin:  0 18px;
+}
+.nav-link{
+  font-size: 1.5rem;
+  font-family: "Montserrat-Light", sans-serif;
+}
+
+.dlbtn{
+  margin: 5% 3% 5% 0 ;
+}
+.iphonepic{
+  position: absolute;
+  width: 60%;
+  transform: translateX(80px) translateY(-30px) rotate(20deg);
+}
+@media (max-width: 1028px) {
+  .iphonepic{
+    position: static;
+    width: 60%;
+    transform: rotate(0deg);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+/* Features */
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.col-lg-4{
+  text-align: center;
+}
+.featureheader{
+  font-weight: bold;
+  font-size: 1.5rem
+}
+
+.featureicon{
+    color: #EF8172;
+    padding: 5%;
+}
+.featureicon:hover{
+  color: #FF4C68;
+}
+
+/* Testimonial section */
+#testimonials {
+  text-align: center;
+  background-color: #EF8172;
+  color: white;
+}
+.testimonialimage{
+  border-radius: 100%;
+  width: 25%;
+  margin: 50px 10px;
+}
+
+/* Press Section */
+#press{
+  background-color: #EF8172;
+  text-align: center;
+  padding-bottom: 8%;
+}
+.pressimage{
+  width: 15%;
+  margin: 20px 20px;
+}
+.carousel-inner{
+padding-bottom: 25px;
+}
+.carousel-item{
+  padding: 7% 15% 5%;
+}
+
+/* pricing section */
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+/* Call to action */
+#cta{
+  text-align: center;
+  background-color:  #FF4C68;
+  color: white;
+  padding: 7% 5%;
+}
+.ctatext{
+  font-size: 2.5rem;
+}
+
+/* footer */
+#footer{
+  text-align: center;
+  background-color: white;
+  color: gray;
+  padding: 5% 5%;
+}
+.footericon{
+  margin: 10px;
+  color: black;
+}
